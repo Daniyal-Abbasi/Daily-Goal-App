@@ -1,0 +1,80 @@
+nav {
+    background-color: black;
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+  }
+
+
+  /* add task css  */
+
+  .container{
+    background-color: antiquewhite;
+    width: 60%;
+    height: 80vh;
+    margin: auto;
+    padding: 10px;
+}
+
+.container >form{
+    
+    flex-direction:column;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+  input,
+  button,
+  textarea
+  {
+      width: 100%;
+       margin: 5px 0;
+       padding: 10px;
+      
+  }
+  .container button{
+     color: aliceblue;
+     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.674);
+ }
+
+  /* task   */
+ .task{
+    background-color: antiquewhite;
+    width:10 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.task >div{
+    width: 100%;
+
+    background-color: aliceblue;
+    /* border: 1px solid black; */
+    margin-right: 10px;
+    padding:5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.task button{
+    background-color: rgb(255, 145, 0);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.task button:hover{
+     background-color: rgba(0, 0, 0, 0.599);
+}
